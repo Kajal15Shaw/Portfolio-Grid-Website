@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>My Portfolio Grid</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>My Project Showcase</h1>
+    <p>A collection of my creative and coding work</p>
+  </header>
+
+  <section id="filter">
+    <button onclick="filterGrid('all')">All</button>
+    <button onclick="filterGrid('fullstack')">Full Stack</button>
+    <button onclick="filterGrid('frontend')">Frontend</button>
+  </section>
+
+  <section id="portfolio-grid">
+    <div class="grid-item" data-category="frontend">
+      <img src="https://th.bing.com/th?q=Apple+iPhone+Notes+App&w=120&h=120&c=1&rs=1&qlt=70&o=7&cb=1&dpr=1.3&pid=InlineBlock&rm=3&mkt=en-IN&cc=IN&setlang=en&adlt=moderate&t=1&mw=247" />
+      <p>Notes Keeping App</p>
+    </div>
+    <div class="grid-item" data-category="fullstack">
+      <img src="https://th.bing.com/th/id/OIP.JF6FSh7mm8vNdPBOLqhzeQHaHa?w=156&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7" alt="Design Project" />
+      <p>Feedback Collection Platform</p>
+    </div>
+    <div class="grid-item" data-category="fullstack">
+      <img src="https://th.bing.com/th?q=Developer+Avatar+PNG&w=120&h=120&c=1&rs=1&qlt=90&cb=1&dpr=1.3&pid=InlineBlock&mkt=en-IN&cc=IN&setlang=en&adlt=moderate&t=1&mw=247" alt="Web Project 2" />
+      <p>Developer Connector Platform</p>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 My Portfolio</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
